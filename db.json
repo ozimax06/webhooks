@@ -1,5 +1,7 @@
-{
+/*{
 "speech": "Ozan",
 "source": "sample",
 "displayText": "ozanika"
-}
+}*/
+
+{ "name":"John", "age":30, "car":null }
