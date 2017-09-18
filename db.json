@@ -1,7 +1,39 @@
-/*{
-"speech": "Ozan",
-"source": "sample",
-"displayText": "ozanika"
-}*/
-
-{ "name":"John", "age":30, "car":null }
+{
+  "id": "853f115d-f663-4135-aef7-c2b62bddb60c",
+  "timestamp": "2017-09-18T15:46:12.795Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "weather in london",
+    "action": "yahooWeatherForecast",
+    "actionIncomplete": false,
+    "parameters": {
+      "geo-city": "London"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "cf52fce6-fe09-4d37-8aff-2e4b12086ab0",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 507,
+      "intentName": "weather-intent"
+    },
+    "fulfillment": {
+      "speech": "Today in London: Showers, the temperature is 62 F",
+      "source": "apiai-weather-webhook-sample",
+      "displayText": "Today in London: Showers, the temperature is 62 F",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Today in London: Showers, the temperature is 62 F"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "5468fcb3-c7ce-4d7f-a332-8599b8cece73"
+}
